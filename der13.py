@@ -13,7 +13,7 @@ while True:
     sayi1 = input("Birinci Sayıyı girin:")
     sayi2 = input("İkinci Sayıyı girin:")
     islemler = ["+", "-", "*", "/"]
-
+    # eval içerisinde yazılı olan metni bir komut gibi çalıştırmamıza imkan sağlıyor
     print(eval(sayi1 + islemler[islem - 1] + sayi2))
     if islem == "q":
         os.system('cls' if os.name == 'nt' else 'clear')
