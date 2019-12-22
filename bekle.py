@@ -1,15 +1,9 @@
-import time,os,sys
+import time,sys
 def bekle():
-    sys.stdout.write(".")
-    time.sleep(.5)
-    sys.stdout.write(".")
-    time.sleep(.5)
-    sys.stdout.write(".")
-    time.sleep(.5)
-    sys.stdout.write("\b")
-    time.sleep(.5)
-    sys.stdout.write("\b")
-    time.sleep(.5)
-    sys.stdout.write("\b")
-
+    for i in range(3):
+        sys.stdout.write(".")
+        time.sleep(.5)
+    for i in range(3):
+        sys.stdout.write("\b")
+        time.sleep(.5)
 bekle()
