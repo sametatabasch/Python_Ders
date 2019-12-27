@@ -1,5 +1,6 @@
 import math
 
+"""
 # Örnek 6.1
 yukseklik = float(input("Yüksekliği girin:"))
 taban = float(input("Tabanı girin:"))
@@ -36,5 +37,11 @@ if sayi1 % sayi2 == 0:
     print("Tam bölünüyor")
 else:
     print("Tam bölünmüyor")
+"""
 
-# 6.20
+# Örnek 6.20
+sayi = int(input("Bir sayıgirin."))
+
+for i in range(1, sayi + 1, 1):
+    if sayi % i == 0:
+        print(i)
