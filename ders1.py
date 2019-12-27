@@ -38,7 +38,13 @@ print(type(ondalikli))  # <float>
 
 print(meyve + "Co") # MuzCo
 print(meyve, "Co") #Muz Co
-'''Muz-Co sep parametresi diğer parametrelerdeki
+'''sep parametresi diğer parametrelerdeki
  metinler birleştirilirke araya eklenecek karakteri belirler'''
-print(meyve, "Co", sep="-")
-
+print(meyve, "Co", sep="-") #Muz-Co
+'''
+end parametresi print fonksiyonunun çıktısındaki son karakteri belirler
+ön tanımlı olarak \n (enter)olduğu için her print yeni satırda yazar
+'''
+print(meyve, end="")
+print("Armut")
+# üsteki iki satırın çıktısı= MuzArmut
