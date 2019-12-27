@@ -7,6 +7,11 @@ Kullanıcının girdiği iki sayının ortalamasın alan program
 5 Yaz ort
 '''
 
+'''
+15. Satır: input() fonksiyonu ile kullanıcıdan veri alınıyor.
+bu veri int() fonksiyonu ile tamsayıya dönüştürülüyor ve 
+bu sayı sayi1 değişkenine atanıyor.
+'''
 sayi1 = int(input("Birinci Sayıyı Girin:"))
 sayi2 = int(input("İkinci Sayıyı Girin:"))
 
