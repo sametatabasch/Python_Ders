@@ -8,7 +8,7 @@ print("-" * 45)
 vize = int(input("Vize Notunuz:"))
 final = int(input("Final Notunuz:"))
 
-donemSonu = vize * 40 / 100 + final * 60 / 100
+donemSonu = vize * 40 / 100 + final * 0.6
 
 print("Dönem sonu Notunuz =", int(donemSonu))
 harfNotu = ""

@@ -18,12 +18,12 @@ k5-  yaş 20 den küçük ise "Askere gitmek için biraz daha beklemelisin" mesa
 10 Bitir
 '''
 
-cins = input("Cinsiyet (erkek/kadın):")
-cins = cins.strip()
-if cins == "kadın" or cins == "Kadın" or cins == "K":
-    print("Askere gidemezsin")
-elif cins == "erkek" or cins == "Erkek" or cins == "E":
-    yas = int(input("Yaşınızı Giriniz:"))
+cins = input("Cinsiyet (erkek/kadın):") # Mesaj göstererek kullanıcıdan cinsiyet bilgisini alıp cins değişkenine aktarıyor
+cins = cins.strip() # kullanıcının girdiği değerdeki gereksiz boşlukları siliyor. başte ve sonda
+if cins == "kadın" or cins == "Kadın" or cins == "K": # cins değeri kadın, Kadın,K değerlerinden biri ise
+    print("Askere gidemezsin") # Mesaj yazdır
+elif cins == "erkek" or cins == "Erkek" or cins == "E": # cins değeri erkek, Erkek, E değerlerinden biri ise
+    yas = int(input("Yaşınızı Giriniz:")) # Kullanıcıdan yas bilgisini istiyor
     if yas >= 20 and yas <= 35:
         print("Askere Gitmelisin")
     elif yas > 35:

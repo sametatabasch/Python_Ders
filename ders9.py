@@ -7,8 +7,10 @@ else:
 
 meyveler[2]="muz"
 
+meyveler.insert(2,"at")
+
 for meyve in meyveler:
-    print(meyve)
+    print(meyve,end=" ")
 
 if "muz" in meyveler:
     print("evet")
@@ -21,5 +23,13 @@ günler = {
   3: "çarşamba"
 }
 
-for x,y in günler.items():
-    print(x," =>",y)
+print(günler[2])
+
+for anahtar in günler:
+    print(anahtar)
+
+for anahtar in günler.values():
+    print(anahtar)
+
+for anahtar, deger in günler.items():
+    print(anahtar, " =>", deger)
