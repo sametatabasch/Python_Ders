@@ -1,5 +1,3 @@
-import time
-
 def asalMi(s):
     asal = True
 
@@ -9,10 +7,7 @@ def asalMi(s):
             break
     return asal
 
-
-bas = time.time()
-for i in range(2, 1000000):
+for i in range(1, 51):
     if asalMi(i):
         print(i)
-bitis = time.time()
-print("Bu işlem", bitis - bas, "saniye sürdü")
+
