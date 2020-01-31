@@ -7,8 +7,11 @@ print("-" * 45)
 
 vize = int(input("Vize Notunuz:"))
 final = int(input("Final Notunuz:"))
-
 donemSonu = vize * 40 / 100 + final * 0.6
+if donemSonu>=50:
+    print("Geçer")
+else:
+    print("Kalır")
 
 print("Dönem sonu Notunuz =", int(donemSonu))
 harfNotu = ""

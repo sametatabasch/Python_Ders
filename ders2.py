@@ -5,6 +5,7 @@ Kullanıcının girdiği iki sayının ortalamasın alan program
 3 Sayı Al "İkinci Sayıyı Girin:", sayi2
 4 ort = (sayi1+sayi2)/2
 5 Yaz ort
+6 Bitir
 '''
 
 '''

@@ -1,5 +1,11 @@
 '''
 Kullanıcının girdiği sayının tek mi çift mi olduğunu belirleyen program
+
+1 Başla
+2 Sayı Al "Bir sayı girin:", sayi
+3 Eğer sayi % 2 == 0 ise Yaz "Çift"
+4 Değilse yaz "Tek"
+5 Bitir
 '''
 
 sayi = input("Sayı Girin:") # input değişkeni string değer döner

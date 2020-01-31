@@ -10,7 +10,7 @@ alan = yukseklik * taban / 2
 print("Alan = ", alan)
 
 # Örnek 6.2
-
+"""
 derece = float(input("Dereceyi Girin:"))
 
 radyan = derece * math.pi / 180
@@ -18,7 +18,7 @@ gradyan = derece * 200 / 180
 
 print("Radyan =", radyan)
 print("Gradyan =", gradyan)
-
+"""
 # Örnek 6.3
 A = float(input("Birinci Kenarı girin:"))
 B = float(input("İkinci Kenarı girin:"))
